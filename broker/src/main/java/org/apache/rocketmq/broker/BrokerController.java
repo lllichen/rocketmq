@@ -413,7 +413,7 @@ public class BrokerController {
          */
         this.remotingServer.registerProcessor(RequestCode.PULL_MESSAGE, this.pullMessageProcessor, this.pullMessageExecutor);
         this.pullMessageProcessor.registerConsumeMessageHook(consumeMessageHookList);
-
+            //
         /**
          * QueryMessageProcessor
          */
